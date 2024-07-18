@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color:#008080;	
+  width: 100%;
+}
+.contaner{
+    width: 100%;
+}
+nav{
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 250px 0 100px;
+}
+ nav .logo{
+        font-size: 50px;
+        color: white;
+        font-weight: 600;
+
+ }
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.left{
+    width: 680px;
+    margin-top: 140px;
+    margin-left: 100px;
+    padding-left: 50px;
+}
+.h1{
+    font-size: 60px;
+}
+.p1{
+    font-size: 25px;
+}
+.row{
+    display: inline-flex;
+}
+.right{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+img{   
+width:100%;
+height: 500px;
+}
+button{
+    margin-top: 50px;
+    padding: 15px 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 33px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color:#008080;	
+}
+.btn{
+    width: 480px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    margin-top:-300px ;
+    margin-left: 130px;
+}
+.box{
+        margin-top: 240px;
+        height: 250px;
+        width: 100%;
+        color: black;
+        background-color: white;
+        display: inline-flex;
+      justify-content: space-evenly;
+}
+.box1,.box2,.box3,.box4{
+    border: 1px solid #569c9c;
+    background-color: #008080;
+    color: white;
+    cursor: pointer;
+    margin-top: -150px;
+    border-radius: 10px;
+    
+}
+.box1{
+    width: 80%;
+    height: 80%;
+    /* margin-left:100px; */
+   /* padding-left: 50px; */
+   /* padding-top: 80px; */
+   background-color: chocolate;
+   position: relative;
+   text-align: center;
+}
+ .bbb{
+    padding-top: 100px;
+ }
+ .i11{
+    font-size: 40px;
+ }
+ .bone{
+    margin-top:50px ;
+    font-size: 35px;
+ }
+ .i1{
+    margin-left: 80px;
+    font-size: 40px;
+ }
+.box2{
+    width: 250px;
+    height: 250px;
+    margin-left: -80px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.btow{
+    text-align: center;
+    width: 100px;
+    margin-top:50px ;
+    padding-left: 40px;
+    font-size: 35px;
+ }
+ .i2{
+    margin-left: 80px;
+    font-size: 45px;
+ }
+.box3{
+    width: 250px;
+    height: 250px;
+    margin-left:-80px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.b3{
+    margin-top:50px ;
+    font-size: 35px;
+ }
+ .i3{
+    margin-left: 80px;
+    font-size: 40px;
+ }
+.box4{
+    width: 250px;
+    height: 250px;
+    margin-left: -80px;
+    padding-left: 50px;
+    padding-top: 80px;
+    
+}
+.b4{
+    margin-top:50px ;
+    font-size: 35px;
+ }
+ .i4{
+    margin-left: 80px;
+    font-size: 50px;
+ }
+ #click{
+    display: none;
+ }
+ .manu-bar{
+    font-size: 27px;
+    display: none;
+ }
+ @media(max-width:1500px){
+    .main{
+     width: 100%;
+     margin-right: 300px;
+    }
+    .box{
+        width: 100%;
+    }
+    .box1,.box2,.box3,.box4{
+        
+        justify-content: space-between;
+        line-height: 20px;
+    }
+    .box1{
+        margin-left: 10px;
+    }
+ }
+ @media(max-width:1420px){
+     .p1{
+        font-size:22px;
+     }
+ }
+ @media(max-width:1400px){
+    .box1{
+        margin-left:-70px;
+    }
+ }
+ @media(max-width:1300px){
+    .box{
+        justify-content: center;
+    }
+    .box3,.box4{
+        margin-top: 320px;
+        margin-left: 20px;
+    }
+    .box3{
+        margin-left: -726px;
+    }
+    .box1,.box2{
+        margin-left: 20px;
+    }
+    .box1{
+        margin-right: 1px ;
+    }
+    .main{
+        height: 1000px;
+        background-color: white;
+        margin-top: 100px;
+    }
+    .box1,.box2,.box3,.box4{
+        width: 300px;
+        height: 350px;
+        justify-content: center;
+    }
+ }
+ @media(max-width:1270px){
+    .p1{
+        font-size:20px ;
+    }
+    .h1{
+        font-size: 55px;
+    }
+    .img{
+        width: 95%;
+    }
+ }
+ @media(max-width:1220px){
+    nav .manu-bar i{
+        display: block;
+    }
+    .manu-bar{
+        display: block;
+        margin-right:-250px;
+        padding-right:20px;
+    }
+ nav ul{
+    position:absolute;
+    top: 80px;
+    left: -100%;
+    background: #008080;;
+    height: 350px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+ }   
+ #click:checked ~ ul{
+    left: 0%;
+ }
+ nav ul li{
+    margin: 30px 0;
+    width: 100%;
+ }
+ nav ul li a{
+    font-size: 20px;
+    display: block;
+ }
+}
+@media(max-width:1170px){
+    .left{
+        margin-left:40px;
+    }
+    .logo{
+        margin-left: -20px;
+    }
+    .btn{
+        margin-left: 70px;
+    }
+    .b1{
+        width:180px;
+    }
+    .b2{
+        width:190px;
+    }
+}
+@media(max-width:1115px){
+     .h1{
+        font-size: 50px;
+     }
+     .p1{
+        font-size: 18px;
+     }
+}
+@media(max-width:1060px){
+    .right{
+        margin-left: -60px;
+    }
+    .img{
+        width: 90%;
+        padding-left: 40px;
+    }
+}
+@media(max-width:985px){
+    .left{
+        margin-left:15px;
+    }
+    .h1{
+        font-size: 45px;
+    }
+    .p1{
+        font-size: 16px;
+    }
+    .btn{
+        margin-left: 45px;
+    }
+}
+@media(max-width:870px){
+    .img{
+        display: none;
+    }
+    .contant{
+        background-image:url(job.png);
+        background-repeat: no-repeat;
+        background-position: 9px -30px;
+        background-size: 900px;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+    .main{
+        margin-top: 200px;
+    }
+    .h1{
+        font-size: 60px;
+        margin-top:30px;
+    }
+    .p1{
+        font-size:20px ;
+    }
+}
+@media(max-width:768px){
+    .main{
+        height:1950px;
+        width: 100%;
+    }
+    .box{
+        display: inline-block;
+    }
+    .box3{
+        margin: 0;
+    }
+    .box1,.box2,.box3,.box4{
+        margin-left: 200px;
+    }
+    .box4{
+        margin-top: 30px;
+    }
+    .box2{
+        margin-top: 30px;
+    }
+    .box3{
+        margin-top:30px ;
+    }
+}
+@media(max-width:740px){  
+    .contant{
+        background:none;
+    }
+    .logo{
+        display: none;
+    }
+    .main{
+        width: 900px;
+    }
+
+}
+@media(max-width:730px){
+    body{
+        width: 100%;
+    }
+    .contant{
+        width: 100%;
+    }
+}
+@media(max-width:730px){
+
+}

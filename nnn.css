@@ -1,0 +1,12 @@
+.row{
+    display: flex;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: center;
+    align-items: end;
+    
+}
